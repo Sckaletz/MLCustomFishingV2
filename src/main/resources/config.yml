@@ -1,0 +1,23 @@
+debug: false
+
+prefix: "&8&l| &b&lFISHING &8&l| &7"
+reload-permission: ml.admin
+
+autofish-prevention-enabled: true
+max-consecutive-casts: 10
+max-consecutive-casts-message: "&cNo more fish here! You need to move around a bit to continue fishing."
+
+no-permission-message: "&cNo permission."
+reload-message: "&7Config reloaded."
+usage-message: "&cUsage: /customfishing reload"
+
+
+rewards:
+  lake:  # worldguard region ID
+    "10": # percentage chance
+      "1":
+        command: "eco give %NAME% 1000"
+        message: "&c&lFISHING! &7You received: &c1000&7!"
+      "2":
+        command: "give %NAME% fishing_rod 1 unbreaking:1 lure:3"
+        message: "&c&lFISHING! &7You received: &c1 Fishing Rod&7!"

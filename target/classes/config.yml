@@ -1,0 +1,1146 @@
+debug: false
+
+prefix: "&8&l| &b&lFISHING &8&l| &7"
+reload-permission: ml.admin
+
+autofish-prevention-enabled: true
+max-consecutive-casts: 10
+max-consecutive-casts-message: "&cNo more fish here! You need to move around a bit to continue fishing."
+
+no-permission-message: "&cNo permission."
+reload-message: "&7Config reloaded."
+usage-message: "&cUsage: /customfishing reload"
+
+
+rewards:
+  clake:  # region ID
+
+    "0_001":
+      "1":
+        command: "iagive %NAME% ml_card_ultra-rare_creaking 1 silent"
+        message: "&d&lTRADING CARD! &7You have received &r:ultra-rare: &dThe Creaking Card&7!"
+        # "2":
+        # command: "iagive %NAME% ml_card_ultra-rare_iron_golem 1 silent"
+        # message: "&d&lTRADING CARD! &7You have received &r:ultra-rare: &dIron Golem Card&7!"
+        # "3":
+        # command: "iagive %NAME% ml_card_ultra-rare_sheep 1 silent"
+        # message: "&d&lTRADING CARD! &7You have received &r:ultra-rare: &dQuentin, the Eclectic Sheep Card&7!"
+        # "4":
+        # command: "iagive %NAME% ml_card_ultra-rare_wither 1 silent"
+        # message: "&d&lTRADING CARD! &7You have received &r:ultra-rare: &dThe Wither Card&7!"
+
+
+    "0_5":
+      "1":
+        command: "iagive %NAME% ml_card_rare_alex 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bAlex Card&7!"
+      "2":
+        command: "iagive %NAME% ml_card_rare_allay 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bAllay Card&7!"
+      "3":
+        command: "iagive %NAME% ml_card_rare_armadillo 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bArmadillo Card&7!"
+      "4":
+        command: "iagive %NAME% ml_card_rare_axolotl 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bAxolotl Card&7!"
+      "5":
+        command: "iagive %NAME% ml_card_rare_bee 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bBee Card&7!"
+      "6":
+        command: "iagive %NAME% ml_card_rare_blaze 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bBlaze Card&7!"
+      "7":
+        command: "iagive %NAME% ml_card_rare_camel 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCamel Card&7!"
+      "8":
+        command: "iagive %NAME% ml_card_rare_cat 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCat Card&7!"
+      "9":
+        command: "iagive %NAME% ml_card_rare_chicken 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bChicken Card&7!"
+      "10":
+        command: "iagive %NAME% ml_card_rare_cod 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCod Card&7!"
+      "11":
+        command: "iagive %NAME% ml_card_rare_cow 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCow Card&7!"
+      "12":
+        command: "iagive %NAME% ml_card_rare_creeper 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCreeper Card&7!"
+      "13":
+        command: "iagive %NAME% ml_card_rare_dolphin 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bDolphin Card&7!"
+      "14":
+        command: "iagive %NAME% ml_card_rare_donkey 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bDonkey Card&7!"
+      "15":
+        command: "iagive %NAME% ml_card_rare_enderman 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bEnderman Card&7!"
+      "16":
+        command: "iagive %NAME% ml_card_rare_fox 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bFox Card&7!"
+      "17":
+        command: "iagive %NAME% ml_card_rare_frog 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bFrog Card&7!"
+      "18":
+        command: "iagive %NAME% ml_card_rare_ghast 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bGhast Card&7!"
+      "19":
+        command: "iagive %NAME% ml_card_rare_glow_squid 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bGlow Squid Card&7!"
+      "20":
+        command: "iagive %NAME% ml_card_rare_goat 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bGoat Card&7!"
+      "21":
+        command: "iagive %NAME% ml_card_rare_hoglin 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bHoglin Card&7!"
+      "22":
+        command: "iagive %NAME% ml_card_rare_horse 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bHorse Card&7!"
+      "23":
+        command: "iagive %NAME% ml_card_rare_husk 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bHusk Card&7!"
+      "24":
+        command: "iagive %NAME% ml_card_rare_llama 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bLlama Card&7!"
+      "25":
+        command: "iagive %NAME% ml_card_rare_magma_cube 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bMagma Cube Card&7!"
+      "26":
+        command: "iagive %NAME% ml_card_rare_moobloom 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bMoobloom Card&7!"
+      "27":
+        command: "iagive %NAME% ml_card_rare_mooshroom 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bMooshroom Card&7!"
+      "28":
+        command: "iagive %NAME% ml_card_rare_mule 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bMule Card&7!"
+      "29":
+        command: "iagive %NAME% ml_card_rare_ocelot 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bOcelot Card&7!"
+      "30":
+        command: "iagive %NAME% ml_card_rare_panda 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPanda Card&7!"
+      "31":
+        command: "iagive %NAME% ml_card_rare_parrot 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bParrot Card&7!"
+      "32":
+        command: "iagive %NAME% ml_card_rare_pig 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPig Card&7!"
+      "33":
+        command: "iagive %NAME% ml_card_rare_piglin 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPiglin Card&7!"
+      "34":
+        command: "iagive %NAME% ml_card_rare_piglin_brute 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPiglin Brute Card&7!"
+      "35":
+        command: "iagive %NAME% ml_card_rare_pillager 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPillager Card&7!"
+      "36":
+        command: "iagive %NAME% ml_card_rare_polar_bear 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPolar Bear Card&7!"
+      "37":
+        command: "iagive %NAME% ml_card_rare_pufferfish 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPufferfish Card&7!"
+      "38":
+        command: "iagive %NAME% ml_card_rare_rabbit 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bRabbit Card&7!"
+      "39":
+        command: "iagive %NAME% ml_card_rare_ravager 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bRavager Card&7!"
+      "40":
+        command: "iagive %NAME% ml_card_rare_salmon 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSalmon Card&7!"
+      "41":
+        command: "iagive %NAME% ml_card_rare_sheep 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSheep Card&7!"
+      "42":
+        command: "iagive %NAME% ml_card_rare_skeleton 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSkeleton Card&7!"
+      "43":
+        command: "iagive %NAME% ml_card_rare_slime 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSlime Card&7!"
+      "44":
+        command: "iagive %NAME% ml_card_rare_sniffer 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSniffer Card&7!"
+      "45":
+        command: "iagive %NAME% ml_card_rare_squid 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSquid Card&7!"
+      "46":
+        command: "iagive %NAME% ml_card_rare_steve 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSteve Card&7!"
+      "47":
+        command: "iagive %NAME% ml_card_rare_stray 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bStray Card&7!"
+      "48":
+        command: "iagive %NAME% ml_card_rare_trader_llama 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bTrader Llama Card&7!"
+      "49":
+        command: "iagive %NAME% ml_card_rare_tropical_fish 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bTropical Fish Card&7!"
+      "50":
+        command: "iagive %NAME% ml_card_rare_turtle 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bTurtle Card&7!"
+      "51":
+        command: "iagive %NAME% ml_card_rare_vex 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bVex Card&7!"
+      "52":
+        command: "iagive %NAME% ml_card_rare_villager 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bVillager Card&7!"
+      "53":
+        command: "iagive %NAME% ml_card_rare_wandering_trader 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bWandering Trader Card&7!"
+      "54":
+        command: "iagive %NAME% ml_card_rare_witch 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bWitch Card&7!"
+      "55":
+        command: "iagive %NAME% ml_card_rare_wither_skeleton 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bWither Skeleton Card&7!"
+      "56":
+        command: "iagive %NAME% ml_card_rare_wolf 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bWolf Card&7!"
+      "57":
+        command: "iagive %NAME% ml_card_rare_zombie 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bZombie Card&7!"
+      "58":
+        command: "iagive %NAME% ml_card_rare_zombie_horse 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bZombie Horse Card&7!"
+
+
+    "1":
+      "1":
+        command: "iagive %NAME% ml_card_alex 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aAlex Card&7!"
+      "2":
+        command: "iagive %NAME% ml_card_allay 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aAllay Card&7!"
+      "3":
+        command: "iagive %NAME% ml_card_armadillo 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aArmadillo Card&7!"
+      "4":
+        command: "iagive %NAME% ml_card_axolotl 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aAxolotl Card&7!"
+      "5":
+        command: "iagive %NAME% ml_card_bee 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aBee Card&7!"
+      "6":
+        command: "iagive %NAME% ml_card_blaze 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aBlaze Card&7!"
+      "7":
+        command: "iagive %NAME% ml_card_camel 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCamel Card&7!"
+      "8":
+        command: "iagive %NAME% ml_card_cat 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCat Card&7!"
+      "9":
+        command: "iagive %NAME% ml_card_chicken 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aChicken Card&7!"
+      "10":
+        command: "iagive %NAME% ml_card_cod 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCod Card&7!"
+      "11":
+        command: "iagive %NAME% ml_card_cow 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCow Card&7!"
+      "12":
+        command: "iagive %NAME% ml_card_creeper 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCreeper Card&7!"
+      "13":
+        command: "iagive %NAME% ml_card_dolphin 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aDolphin Card&7!"
+      "14":
+        command: "iagive %NAME% ml_card_donkey 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aDonkey Card&7!"
+      "15":
+        command: "iagive %NAME% ml_card_enderman 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aEnderman Card&7!"
+      "16":
+        command: "iagive %NAME% ml_card_fox 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aFox Card&7!"
+      "17":
+        command: "iagive %NAME% ml_card_frog 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aFrog Card&7!"
+      "18":
+        command: "iagive %NAME% ml_card_ghast 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aGhast Card&7!"
+      "19":
+        command: "iagive %NAME% ml_card_glow_squid 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aGlow Squid Card&7!"
+      "20":
+        command: "iagive %NAME% ml_card_goat 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aGoat Card&7!"
+      "21":
+        command: "iagive %NAME% ml_card_hoglin 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aHoglin Card&7!"
+      "22":
+        command: "iagive %NAME% ml_card_horse 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aHorse Card&7!"
+      "23":
+        command: "iagive %NAME% ml_card_husk 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aHusk Card&7!"
+      "24":
+        command: "iagive %NAME% ml_card_llama 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aLlama Card&7!"
+      "25":
+        command: "iagive %NAME% ml_card_magma_cube 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aMagma Cube Card&7!"
+      "26":
+        command: "iagive %NAME% ml_card_moobloom 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aMoobloom Card&7!"
+      "27":
+        command: "iagive %NAME% ml_card_mooshroom 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aMooshroom Card&7!"
+      "28":
+        command: "iagive %NAME% ml_card_mule 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aMule Card&7!"
+      "29":
+        command: "iagive %NAME% ml_card_ocelot 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aOcelot Card&7!"
+      "30":
+        command: "iagive %NAME% ml_card_panda 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPanda Card&7!"
+      "31":
+        command: "iagive %NAME% ml_card_parrot 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aParrot Card&7!"
+      "32":
+        command: "iagive %NAME% ml_card_pig 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPig Card&7!"
+      "33":
+        command: "iagive %NAME% ml_card_piglin 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPiglin Card&7!"
+      "34":
+        command: "iagive %NAME% ml_card_piglin_brute 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPiglin Brute Card&7!"
+      "35":
+        command: "iagive %NAME% ml_card_pillager 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPillager Card&7!"
+      "36":
+        command: "iagive %NAME% ml_card_polar_bear 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPolar Bear Card&7!"
+      "37":
+        command: "iagive %NAME% ml_card_pufferfish 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPufferfish Card&7!"
+      "38":
+        command: "iagive %NAME% ml_card_rabbit 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aRabbit Card&7!"
+      "39":
+        command: "iagive %NAME% ml_card_ravager 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aRavager Card&7!"
+      "40":
+        command: "iagive %NAME% ml_card_salmon 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSalmon Card&7!"
+      "41":
+        command: "iagive %NAME% ml_card_sheep 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSheep Card&7!"
+      "42":
+        command: "iagive %NAME% ml_card_skeleton 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSkeleton Card&7!"
+      "43":
+        command: "iagive %NAME% ml_card_slime 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSlime Card&7!"
+      "44":
+        command: "iagive %NAME% ml_card_sniffer 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSniffer Card&7!"
+      "45":
+        command: "iagive %NAME% ml_card_squid 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSquid Card&7!"
+      "46":
+        command: "iagive %NAME% ml_card_steve 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSteve Card&7!"
+      "47":
+        command: "iagive %NAME% ml_card_stray 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aStray Card&7!"
+      "48":
+        command: "iagive %NAME% ml_card_trader_llama 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aTrader Llama Card&7!"
+      "49":
+        command: "iagive %NAME% ml_card_tropical_fish 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aTropical Fish Card&7!"
+      "50":
+        command: "iagive %NAME% ml_card_turtle 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aTurtle Card&7!"
+      "51":
+        command: "iagive %NAME% ml_card_vex 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aVex Card&7!"
+      "52":
+        command: "iagive %NAME% ml_card_villager 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aVillager Card&7!"
+      "53":
+        command: "iagive %NAME% ml_card_wandering_trader 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aWandering Trader Card&7!"
+      "54":
+        command: "iagive %NAME% ml_card_witch 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aWitch Card&7!"
+      "55":
+        command: "iagive %NAME% ml_card_wither_skeleton 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aWither Skeleton Card&7!"
+      "56":
+        command: "iagive %NAME% ml_card_wolf 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aWolf Card&7!"
+      "57":
+        command: "iagive %NAME% ml_card_zombie 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aZombie Card&7!"
+      "58":
+        command: "iagive %NAME% ml_card_zombie_horse 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aZombie Horse Card&7!"
+
+
+    "4":
+      "1":
+        command: "give %NAME% fishing_rod 1 unbreaking:1 lure:3"
+        message: "NONE"
+
+
+
+  blake:  # region ID
+
+    "0_001":
+      "1":
+        command: "iagive %NAME% ml_card_ultra-rare_creaking 1 silent"
+        message: "&d&lTRADING CARD! &7You have received &r:ultra-rare: &dThe Creaking Card&7!"
+        # "2":
+        # command: "iagive %NAME% ml_card_ultra-rare_iron_golem 1 silent"
+        # message: "&d&lTRADING CARD! &7You have received &r:ultra-rare: &dIron Golem Card&7!"
+        # "3":
+        # command: "iagive %NAME% ml_card_ultra-rare_sheep 1 silent"
+        # message: "&d&lTRADING CARD! &7You have received &r:ultra-rare: &dQuentin, the Eclectic Sheep Card&7!"
+        # "4":
+        # command: "iagive %NAME% ml_card_ultra-rare_wither 1 silent"
+        # message: "&d&lTRADING CARD! &7You have received &r:ultra-rare: &dThe Wither Card&7!"
+
+
+    "0_5":
+      "1":
+        command: "iagive %NAME% ml_card_rare_alex 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bAlex Card&7!"
+      "2":
+        command: "iagive %NAME% ml_card_rare_allay 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bAllay Card&7!"
+      "3":
+        command: "iagive %NAME% ml_card_rare_armadillo 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bArmadillo Card&7!"
+      "4":
+        command: "iagive %NAME% ml_card_rare_axolotl 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bAxolotl Card&7!"
+      "5":
+        command: "iagive %NAME% ml_card_rare_bee 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bBee Card&7!"
+      "6":
+        command: "iagive %NAME% ml_card_rare_blaze 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bBlaze Card&7!"
+      "7":
+        command: "iagive %NAME% ml_card_rare_camel 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCamel Card&7!"
+      "8":
+        command: "iagive %NAME% ml_card_rare_cat 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCat Card&7!"
+      "9":
+        command: "iagive %NAME% ml_card_rare_chicken 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bChicken Card&7!"
+      "10":
+        command: "iagive %NAME% ml_card_rare_cod 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCod Card&7!"
+      "11":
+        command: "iagive %NAME% ml_card_rare_cow 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCow Card&7!"
+      "12":
+        command: "iagive %NAME% ml_card_rare_creeper 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCreeper Card&7!"
+      "13":
+        command: "iagive %NAME% ml_card_rare_dolphin 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bDolphin Card&7!"
+      "14":
+        command: "iagive %NAME% ml_card_rare_donkey 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bDonkey Card&7!"
+      "15":
+        command: "iagive %NAME% ml_card_rare_enderman 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bEnderman Card&7!"
+      "16":
+        command: "iagive %NAME% ml_card_rare_fox 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bFox Card&7!"
+      "17":
+        command: "iagive %NAME% ml_card_rare_frog 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bFrog Card&7!"
+      "18":
+        command: "iagive %NAME% ml_card_rare_ghast 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bGhast Card&7!"
+      "19":
+        command: "iagive %NAME% ml_card_rare_glow_squid 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bGlow Squid Card&7!"
+      "20":
+        command: "iagive %NAME% ml_card_rare_goat 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bGoat Card&7!"
+      "21":
+        command: "iagive %NAME% ml_card_rare_hoglin 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bHoglin Card&7!"
+      "22":
+        command: "iagive %NAME% ml_card_rare_horse 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bHorse Card&7!"
+      "23":
+        command: "iagive %NAME% ml_card_rare_husk 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bHusk Card&7!"
+      "24":
+        command: "iagive %NAME% ml_card_rare_llama 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bLlama Card&7!"
+      "25":
+        command: "iagive %NAME% ml_card_rare_magma_cube 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bMagma Cube Card&7!"
+      "26":
+        command: "iagive %NAME% ml_card_rare_moobloom 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bMoobloom Card&7!"
+      "27":
+        command: "iagive %NAME% ml_card_rare_mooshroom 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bMooshroom Card&7!"
+      "28":
+        command: "iagive %NAME% ml_card_rare_mule 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bMule Card&7!"
+      "29":
+        command: "iagive %NAME% ml_card_rare_ocelot 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bOcelot Card&7!"
+      "30":
+        command: "iagive %NAME% ml_card_rare_panda 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPanda Card&7!"
+      "31":
+        command: "iagive %NAME% ml_card_rare_parrot 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bParrot Card&7!"
+      "32":
+        command: "iagive %NAME% ml_card_rare_pig 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPig Card&7!"
+      "33":
+        command: "iagive %NAME% ml_card_rare_piglin 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPiglin Card&7!"
+      "34":
+        command: "iagive %NAME% ml_card_rare_piglin_brute 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPiglin Brute Card&7!"
+      "35":
+        command: "iagive %NAME% ml_card_rare_pillager 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPillager Card&7!"
+      "36":
+        command: "iagive %NAME% ml_card_rare_polar_bear 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPolar Bear Card&7!"
+      "37":
+        command: "iagive %NAME% ml_card_rare_pufferfish 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPufferfish Card&7!"
+      "38":
+        command: "iagive %NAME% ml_card_rare_rabbit 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bRabbit Card&7!"
+      "39":
+        command: "iagive %NAME% ml_card_rare_ravager 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bRavager Card&7!"
+      "40":
+        command: "iagive %NAME% ml_card_rare_salmon 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSalmon Card&7!"
+      "41":
+        command: "iagive %NAME% ml_card_rare_sheep 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSheep Card&7!"
+      "42":
+        command: "iagive %NAME% ml_card_rare_skeleton 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSkeleton Card&7!"
+      "43":
+        command: "iagive %NAME% ml_card_rare_slime 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSlime Card&7!"
+      "44":
+        command: "iagive %NAME% ml_card_rare_sniffer 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSniffer Card&7!"
+      "45":
+        command: "iagive %NAME% ml_card_rare_squid 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSquid Card&7!"
+      "46":
+        command: "iagive %NAME% ml_card_rare_steve 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSteve Card&7!"
+      "47":
+        command: "iagive %NAME% ml_card_rare_stray 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bStray Card&7!"
+      "48":
+        command: "iagive %NAME% ml_card_rare_trader_llama 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bTrader Llama Card&7!"
+      "49":
+        command: "iagive %NAME% ml_card_rare_tropical_fish 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bTropical Fish Card&7!"
+      "50":
+        command: "iagive %NAME% ml_card_rare_turtle 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bTurtle Card&7!"
+      "51":
+        command: "iagive %NAME% ml_card_rare_vex 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bVex Card&7!"
+      "52":
+        command: "iagive %NAME% ml_card_rare_villager 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bVillager Card&7!"
+      "53":
+        command: "iagive %NAME% ml_card_rare_wandering_trader 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bWandering Trader Card&7!"
+      "54":
+        command: "iagive %NAME% ml_card_rare_witch 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bWitch Card&7!"
+      "55":
+        command: "iagive %NAME% ml_card_rare_wither_skeleton 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bWither Skeleton Card&7!"
+      "56":
+        command: "iagive %NAME% ml_card_rare_wolf 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bWolf Card&7!"
+      "57":
+        command: "iagive %NAME% ml_card_rare_zombie 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bZombie Card&7!"
+      "58":
+        command: "iagive %NAME% ml_card_rare_zombie_horse 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bZombie Horse Card&7!"
+
+
+    "1":
+      "1":
+        command: "iagive %NAME% ml_card_alex 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aAlex Card&7!"
+      "2":
+        command: "iagive %NAME% ml_card_allay 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aAllay Card&7!"
+      "3":
+        command: "iagive %NAME% ml_card_armadillo 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aArmadillo Card&7!"
+      "4":
+        command: "iagive %NAME% ml_card_axolotl 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aAxolotl Card&7!"
+      "5":
+        command: "iagive %NAME% ml_card_bee 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aBee Card&7!"
+      "6":
+        command: "iagive %NAME% ml_card_blaze 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aBlaze Card&7!"
+      "7":
+        command: "iagive %NAME% ml_card_camel 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCamel Card&7!"
+      "8":
+        command: "iagive %NAME% ml_card_cat 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCat Card&7!"
+      "9":
+        command: "iagive %NAME% ml_card_chicken 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aChicken Card&7!"
+      "10":
+        command: "iagive %NAME% ml_card_cod 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCod Card&7!"
+      "11":
+        command: "iagive %NAME% ml_card_cow 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCow Card&7!"
+      "12":
+        command: "iagive %NAME% ml_card_creeper 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCreeper Card&7!"
+      "13":
+        command: "iagive %NAME% ml_card_dolphin 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aDolphin Card&7!"
+      "14":
+        command: "iagive %NAME% ml_card_donkey 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aDonkey Card&7!"
+      "15":
+        command: "iagive %NAME% ml_card_enderman 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aEnderman Card&7!"
+      "16":
+        command: "iagive %NAME% ml_card_fox 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aFox Card&7!"
+      "17":
+        command: "iagive %NAME% ml_card_frog 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aFrog Card&7!"
+      "18":
+        command: "iagive %NAME% ml_card_ghast 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aGhast Card&7!"
+      "19":
+        command: "iagive %NAME% ml_card_glow_squid 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aGlow Squid Card&7!"
+      "20":
+        command: "iagive %NAME% ml_card_goat 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aGoat Card&7!"
+      "21":
+        command: "iagive %NAME% ml_card_hoglin 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aHoglin Card&7!"
+      "22":
+        command: "iagive %NAME% ml_card_horse 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aHorse Card&7!"
+      "23":
+        command: "iagive %NAME% ml_card_husk 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aHusk Card&7!"
+      "24":
+        command: "iagive %NAME% ml_card_llama 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aLlama Card&7!"
+      "25":
+        command: "iagive %NAME% ml_card_magma_cube 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aMagma Cube Card&7!"
+      "26":
+        command: "iagive %NAME% ml_card_moobloom 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aMoobloom Card&7!"
+      "27":
+        command: "iagive %NAME% ml_card_mooshroom 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aMooshroom Card&7!"
+      "28":
+        command: "iagive %NAME% ml_card_mule 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aMule Card&7!"
+      "29":
+        command: "iagive %NAME% ml_card_ocelot 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aOcelot Card&7!"
+      "30":
+        command: "iagive %NAME% ml_card_panda 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPanda Card&7!"
+      "31":
+        command: "iagive %NAME% ml_card_parrot 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aParrot Card&7!"
+      "32":
+        command: "iagive %NAME% ml_card_pig 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPig Card&7!"
+      "33":
+        command: "iagive %NAME% ml_card_piglin 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPiglin Card&7!"
+      "34":
+        command: "iagive %NAME% ml_card_piglin_brute 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPiglin Brute Card&7!"
+      "35":
+        command: "iagive %NAME% ml_card_pillager 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPillager Card&7!"
+      "36":
+        command: "iagive %NAME% ml_card_polar_bear 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPolar Bear Card&7!"
+      "37":
+        command: "iagive %NAME% ml_card_pufferfish 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPufferfish Card&7!"
+      "38":
+        command: "iagive %NAME% ml_card_rabbit 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aRabbit Card&7!"
+      "39":
+        command: "iagive %NAME% ml_card_ravager 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aRavager Card&7!"
+      "40":
+        command: "iagive %NAME% ml_card_salmon 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSalmon Card&7!"
+      "41":
+        command: "iagive %NAME% ml_card_sheep 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSheep Card&7!"
+      "42":
+        command: "iagive %NAME% ml_card_skeleton 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSkeleton Card&7!"
+      "43":
+        command: "iagive %NAME% ml_card_slime 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSlime Card&7!"
+      "44":
+        command: "iagive %NAME% ml_card_sniffer 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSniffer Card&7!"
+      "45":
+        command: "iagive %NAME% ml_card_squid 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSquid Card&7!"
+      "46":
+        command: "iagive %NAME% ml_card_steve 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSteve Card&7!"
+      "47":
+        command: "iagive %NAME% ml_card_stray 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aStray Card&7!"
+      "48":
+        command: "iagive %NAME% ml_card_trader_llama 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aTrader Llama Card&7!"
+      "49":
+        command: "iagive %NAME% ml_card_tropical_fish 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aTropical Fish Card&7!"
+      "50":
+        command: "iagive %NAME% ml_card_turtle 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aTurtle Card&7!"
+      "51":
+        command: "iagive %NAME% ml_card_vex 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aVex Card&7!"
+      "52":
+        command: "iagive %NAME% ml_card_villager 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aVillager Card&7!"
+      "53":
+        command: "iagive %NAME% ml_card_wandering_trader 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aWandering Trader Card&7!"
+      "54":
+        command: "iagive %NAME% ml_card_witch 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aWitch Card&7!"
+      "55":
+        command: "iagive %NAME% ml_card_wither_skeleton 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aWither Skeleton Card&7!"
+      "56":
+        command: "iagive %NAME% ml_card_wolf 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aWolf Card&7!"
+      "57":
+        command: "iagive %NAME% ml_card_zombie 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aZombie Card&7!"
+      "58":
+        command: "iagive %NAME% ml_card_zombie_horse 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aZombie Horse Card&7!"
+
+    "4":
+      "1":
+        command: "give %NAME% fishing_rod 1 unbreaking:1 lure:3"
+        message: "NONE"
+
+
+  alake2:  # region ID
+
+    "0_001":
+      "1":
+        command: "iagive %NAME% ml_card_ultra-rare_creaking 1 silent"
+        message: "&d&lTRADING CARD! &7You have received &r:ultra-rare: &dThe Creaking Card&7!"
+        # "2":
+        # command: "iagive %NAME% ml_card_ultra-rare_iron_golem 1 silent"
+        # message: "&d&lTRADING CARD! &7You have received &r:ultra-rare: &dIron Golem Card&7!"
+        # "3":
+        # command: "iagive %NAME% ml_card_ultra-rare_sheep 1 silent"
+        # message: "&d&lTRADING CARD! &7You have received &r:ultra-rare: &dQuentin, the Eclectic Sheep Card&7!"
+        # "4":
+        # command: "iagive %NAME% ml_card_ultra-rare_wither 1 silent"
+        # message: "&d&lTRADING CARD! &7You have received &r:ultra-rare: &dThe Wither Card&7!"
+
+
+    "0_5":
+      "1":
+        command: "iagive %NAME% ml_card_rare_alex 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bAlex Card&7!"
+      "2":
+        command: "iagive %NAME% ml_card_rare_allay 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bAllay Card&7!"
+      "3":
+        command: "iagive %NAME% ml_card_rare_armadillo 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bArmadillo Card&7!"
+      "4":
+        command: "iagive %NAME% ml_card_rare_axolotl 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bAxolotl Card&7!"
+      "5":
+        command: "iagive %NAME% ml_card_rare_bee 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bBee Card&7!"
+      "6":
+        command: "iagive %NAME% ml_card_rare_blaze 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bBlaze Card&7!"
+      "7":
+        command: "iagive %NAME% ml_card_rare_camel 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCamel Card&7!"
+      "8":
+        command: "iagive %NAME% ml_card_rare_cat 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCat Card&7!"
+      "9":
+        command: "iagive %NAME% ml_card_rare_chicken 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bChicken Card&7!"
+      "10":
+        command: "iagive %NAME% ml_card_rare_cod 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCod Card&7!"
+      "11":
+        command: "iagive %NAME% ml_card_rare_cow 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCow Card&7!"
+      "12":
+        command: "iagive %NAME% ml_card_rare_creeper 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bCreeper Card&7!"
+      "13":
+        command: "iagive %NAME% ml_card_rare_dolphin 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bDolphin Card&7!"
+      "14":
+        command: "iagive %NAME% ml_card_rare_donkey 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bDonkey Card&7!"
+      "15":
+        command: "iagive %NAME% ml_card_rare_enderman 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bEnderman Card&7!"
+      "16":
+        command: "iagive %NAME% ml_card_rare_fox 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bFox Card&7!"
+      "17":
+        command: "iagive %NAME% ml_card_rare_frog 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bFrog Card&7!"
+      "18":
+        command: "iagive %NAME% ml_card_rare_ghast 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bGhast Card&7!"
+      "19":
+        command: "iagive %NAME% ml_card_rare_glow_squid 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bGlow Squid Card&7!"
+      "20":
+        command: "iagive %NAME% ml_card_rare_goat 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bGoat Card&7!"
+      "21":
+        command: "iagive %NAME% ml_card_rare_hoglin 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bHoglin Card&7!"
+      "22":
+        command: "iagive %NAME% ml_card_rare_horse 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bHorse Card&7!"
+      "23":
+        command: "iagive %NAME% ml_card_rare_husk 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bHusk Card&7!"
+      "24":
+        command: "iagive %NAME% ml_card_rare_llama 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bLlama Card&7!"
+      "25":
+        command: "iagive %NAME% ml_card_rare_magma_cube 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bMagma Cube Card&7!"
+      "26":
+        command: "iagive %NAME% ml_card_rare_moobloom 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bMoobloom Card&7!"
+      "27":
+        command: "iagive %NAME% ml_card_rare_mooshroom 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bMooshroom Card&7!"
+      "28":
+        command: "iagive %NAME% ml_card_rare_mule 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bMule Card&7!"
+      "29":
+        command: "iagive %NAME% ml_card_rare_ocelot 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bOcelot Card&7!"
+      "30":
+        command: "iagive %NAME% ml_card_rare_panda 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPanda Card&7!"
+      "31":
+        command: "iagive %NAME% ml_card_rare_parrot 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bParrot Card&7!"
+      "32":
+        command: "iagive %NAME% ml_card_rare_pig 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPig Card&7!"
+      "33":
+        command: "iagive %NAME% ml_card_rare_piglin 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPiglin Card&7!"
+      "34":
+        command: "iagive %NAME% ml_card_rare_piglin_brute 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPiglin Brute Card&7!"
+      "35":
+        command: "iagive %NAME% ml_card_rare_pillager 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPillager Card&7!"
+      "36":
+        command: "iagive %NAME% ml_card_rare_polar_bear 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPolar Bear Card&7!"
+      "37":
+        command: "iagive %NAME% ml_card_rare_pufferfish 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bPufferfish Card&7!"
+      "38":
+        command: "iagive %NAME% ml_card_rare_rabbit 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bRabbit Card&7!"
+      "39":
+        command: "iagive %NAME% ml_card_rare_ravager 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bRavager Card&7!"
+      "40":
+        command: "iagive %NAME% ml_card_rare_salmon 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSalmon Card&7!"
+      "41":
+        command: "iagive %NAME% ml_card_rare_sheep 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSheep Card&7!"
+      "42":
+        command: "iagive %NAME% ml_card_rare_skeleton 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSkeleton Card&7!"
+      "43":
+        command: "iagive %NAME% ml_card_rare_slime 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSlime Card&7!"
+      "44":
+        command: "iagive %NAME% ml_card_rare_sniffer 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSniffer Card&7!"
+      "45":
+        command: "iagive %NAME% ml_card_rare_squid 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSquid Card&7!"
+      "46":
+        command: "iagive %NAME% ml_card_rare_steve 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bSteve Card&7!"
+      "47":
+        command: "iagive %NAME% ml_card_rare_stray 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bStray Card&7!"
+      "48":
+        command: "iagive %NAME% ml_card_rare_trader_llama 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bTrader Llama Card&7!"
+      "49":
+        command: "iagive %NAME% ml_card_rare_tropical_fish 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bTropical Fish Card&7!"
+      "50":
+        command: "iagive %NAME% ml_card_rare_turtle 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bTurtle Card&7!"
+      "51":
+        command: "iagive %NAME% ml_card_rare_vex 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bVex Card&7!"
+      "52":
+        command: "iagive %NAME% ml_card_rare_villager 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bVillager Card&7!"
+      "53":
+        command: "iagive %NAME% ml_card_rare_wandering_trader 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bWandering Trader Card&7!"
+      "54":
+        command: "iagive %NAME% ml_card_rare_witch 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bWitch Card&7!"
+      "55":
+        command: "iagive %NAME% ml_card_rare_wither_skeleton 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bWither Skeleton Card&7!"
+      "56":
+        command: "iagive %NAME% ml_card_rare_wolf 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bWolf Card&7!"
+      "57":
+        command: "iagive %NAME% ml_card_rare_zombie 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bZombie Card&7!"
+      "58":
+        command: "iagive %NAME% ml_card_rare_zombie_horse 1 silent"
+        message: "&b&lTRADING CARD! &7You have received &r:rare: &bZombie Horse Card&7!"
+      "59":
+        command: "giveharvester3 %NAME%"
+        message: "NONE"
+
+
+    "1":
+      "1":
+        command: "iagive %NAME% ml_card_alex 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aAlex Card&7!"
+      "2":
+        command: "iagive %NAME% ml_card_allay 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aAllay Card&7!"
+      "3":
+        command: "iagive %NAME% ml_card_armadillo 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aArmadillo Card&7!"
+      "4":
+        command: "iagive %NAME% ml_card_axolotl 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aAxolotl Card&7!"
+      "5":
+        command: "iagive %NAME% ml_card_bee 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aBee Card&7!"
+      "6":
+        command: "iagive %NAME% ml_card_blaze 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aBlaze Card&7!"
+      "7":
+        command: "iagive %NAME% ml_card_camel 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCamel Card&7!"
+      "8":
+        command: "iagive %NAME% ml_card_cat 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCat Card&7!"
+      "9":
+        command: "iagive %NAME% ml_card_chicken 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aChicken Card&7!"
+      "10":
+        command: "iagive %NAME% ml_card_cod 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCod Card&7!"
+      "11":
+        command: "iagive %NAME% ml_card_cow 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCow Card&7!"
+      "12":
+        command: "iagive %NAME% ml_card_creeper 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aCreeper Card&7!"
+      "13":
+        command: "iagive %NAME% ml_card_dolphin 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aDolphin Card&7!"
+      "14":
+        command: "iagive %NAME% ml_card_donkey 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aDonkey Card&7!"
+      "15":
+        command: "iagive %NAME% ml_card_enderman 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aEnderman Card&7!"
+      "16":
+        command: "iagive %NAME% ml_card_fox 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aFox Card&7!"
+      "17":
+        command: "iagive %NAME% ml_card_frog 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aFrog Card&7!"
+      "18":
+        command: "iagive %NAME% ml_card_ghast 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aGhast Card&7!"
+      "19":
+        command: "iagive %NAME% ml_card_glow_squid 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aGlow Squid Card&7!"
+      "20":
+        command: "iagive %NAME% ml_card_goat 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aGoat Card&7!"
+      "21":
+        command: "iagive %NAME% ml_card_hoglin 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aHoglin Card&7!"
+      "22":
+        command: "iagive %NAME% ml_card_horse 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aHorse Card&7!"
+      "23":
+        command: "iagive %NAME% ml_card_husk 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aHusk Card&7!"
+      "24":
+        command: "iagive %NAME% ml_card_llama 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aLlama Card&7!"
+      "25":
+        command: "iagive %NAME% ml_card_magma_cube 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aMagma Cube Card&7!"
+      "26":
+        command: "iagive %NAME% ml_card_moobloom 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aMoobloom Card&7!"
+      "27":
+        command: "iagive %NAME% ml_card_mooshroom 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aMooshroom Card&7!"
+      "28":
+        command: "iagive %NAME% ml_card_mule 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aMule Card&7!"
+      "29":
+        command: "iagive %NAME% ml_card_ocelot 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aOcelot Card&7!"
+      "30":
+        command: "iagive %NAME% ml_card_panda 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPanda Card&7!"
+      "31":
+        command: "iagive %NAME% ml_card_parrot 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aParrot Card&7!"
+      "32":
+        command: "iagive %NAME% ml_card_pig 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPig Card&7!"
+      "33":
+        command: "iagive %NAME% ml_card_piglin 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPiglin Card&7!"
+      "34":
+        command: "iagive %NAME% ml_card_piglin_brute 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPiglin Brute Card&7!"
+      "35":
+        command: "iagive %NAME% ml_card_pillager 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPillager Card&7!"
+      "36":
+        command: "iagive %NAME% ml_card_polar_bear 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPolar Bear Card&7!"
+      "37":
+        command: "iagive %NAME% ml_card_pufferfish 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aPufferfish Card&7!"
+      "38":
+        command: "iagive %NAME% ml_card_rabbit 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aRabbit Card&7!"
+      "39":
+        command: "iagive %NAME% ml_card_ravager 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aRavager Card&7!"
+      "40":
+        command: "iagive %NAME% ml_card_salmon 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSalmon Card&7!"
+      "41":
+        command: "iagive %NAME% ml_card_sheep 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSheep Card&7!"
+      "42":
+        command: "iagive %NAME% ml_card_skeleton 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSkeleton Card&7!"
+      "43":
+        command: "iagive %NAME% ml_card_slime 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSlime Card&7!"
+      "44":
+        command: "iagive %NAME% ml_card_sniffer 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSniffer Card&7!"
+      "45":
+        command: "iagive %NAME% ml_card_squid 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSquid Card&7!"
+      "46":
+        command: "iagive %NAME% ml_card_steve 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aSteve Card&7!"
+      "47":
+        command: "iagive %NAME% ml_card_stray 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aStray Card&7!"
+      "48":
+        command: "iagive %NAME% ml_card_trader_llama 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aTrader Llama Card&7!"
+      "49":
+        command: "iagive %NAME% ml_card_tropical_fish 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aTropical Fish Card&7!"
+      "50":
+        command: "iagive %NAME% ml_card_turtle 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aTurtle Card&7!"
+      "51":
+        command: "iagive %NAME% ml_card_vex 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aVex Card&7!"
+      "52":
+        command: "iagive %NAME% ml_card_villager 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aVillager Card&7!"
+      "53":
+        command: "iagive %NAME% ml_card_wandering_trader 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aWandering Trader Card&7!"
+      "54":
+        command: "iagive %NAME% ml_card_witch 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aWitch Card&7!"
+      "55":
+        command: "iagive %NAME% ml_card_wither_skeleton 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aWither Skeleton Card&7!"
+      "56":
+        command: "iagive %NAME% ml_card_wolf 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aWolf Card&7!"
+      "57":
+        command: "iagive %NAME% ml_card_zombie 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aZombie Card&7!"
+      "58":
+        command: "iagive %NAME% ml_card_zombie_horse 1 silent"
+        message: "&a&lTRADING CARD! &7You have received &r:common: &aZombie Horse Card&7!"
+
+    "4":
+      "1":
+        command: "give %NAME% fishing_rod 1 unbreaking:1 lure:3"
+        message: "NONE"

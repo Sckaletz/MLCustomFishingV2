@@ -1,0 +1,7 @@
+name: MLCustomFishingV2
+version: '1.0'
+main: eu.minelife.mLCustomFishingV2.Main
+api-version: '1.21'
+commands:
+  customfishing:
+    description: CustomFishing Command

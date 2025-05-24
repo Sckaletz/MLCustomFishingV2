@@ -1,0 +1,8 @@
+eu\minelife\mLCustomFishingV2\Configs\PluginConfig.class
+eu\minelife\mLCustomFishingV2\Utils\ChanceUtils.class
+eu\minelife\mLCustomFishingV2\CustomFishingCommand.class
+eu\minelife\mLCustomFishingV2\Listeners\FishingListener.class
+eu\minelife\mLCustomFishingV2\Main.class
+eu\minelife\mLCustomFishingV2\DataGroup\RewardEntry.class
+eu\minelife\mLCustomFishingV2\DataGroup\ChanceGroup.class
+eu\minelife\mLCustomFishingV2\Utils\WorldGuardUtils.class
